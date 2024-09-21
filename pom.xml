@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>springStudy</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>springStudy</name>
+    <url>https://github.com/huqiwei123/springStudy.git</url>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.4</version>
+    </parent>
+
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- Spring Core: includes core Spring framework classes -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+
+        <!-- Spring Beans: includes classes for managing beans -->
+        <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+        </dependency>
+
+        <!-- Spring Context: includes ApplicationContext, etcs -->
+        <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+        </dependency>
+
+        <!-- Spring Web: includes classes for building web applications -->
+        <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
